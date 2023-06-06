@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 23</title>
+    <script src="romero.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+    <h1>ticket de compra:</h1>
+        <form>
+            <!--pedir.-->
+            <label>¿cantidad del mismo producto?</label>
+            <input type="number" id="cant"><br>
+
+            <label>¿que producto?</label>
+            <input type="text" id="articulo"><br>
+
+            <label>¿cual es el precio por cada uno?</label>
+            <input type="number" id="precioxunidad"><br>
+
+            <div class="button">
+            <!--boton de cargar-->
+            <button type="button" onclick="ejecutar()">agregar a la lista y al precio final.</button>
+            </div>
+
+            <!--mostrar-->
+            <p id="lista"></p>
+
+            <p id="total"></p>
+        </form>
+    </div>
+</body>
+
+</html>

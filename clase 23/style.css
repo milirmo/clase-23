@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(211, 61, 148);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+input {
+    width: 20%;
+    border-radius: 5px;
+}
+
+label {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+p {
+    color: rgb(46, 6, 34);
+    text-align: left;
+    font-size: 20px;
+}
